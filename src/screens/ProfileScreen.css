@@ -1,0 +1,112 @@
+.profileScreen {
+  height: 100vh;
+  color: white;
+  top: 10%;
+  /* left: 0;
+  right: 0; */
+}
+
+body {
+  background-color: black;
+}
+
+.profileScreen__body {
+  display: flex;
+  flex-direction: column;
+  /* top: 10%; */
+  margin-right: auto;
+  margin-left: auto;
+  width: 50%;
+  padding-top: 8%;
+  max-width: 800px;
+}
+
+.profileScreen__body > h1 {
+  font-weight: 500;
+  border-bottom: 1px solid #282c2d;
+}
+
+.profileScreen__info {
+  display: flex;
+  flex-direction: row;
+}
+
+.profileScreen__info > img {
+  object-fit: contain;
+  width: 100px;
+  align-self: flex-start;
+  /* padding-right: 20px; */
+}
+
+.profileScreen__details {
+  color: white;
+  margin-left: 20px;
+  flex: 1;
+}
+
+.profileScreen__details > h2 {
+  font-size: 20px;
+  font-weight: 400;
+  border-bottom: 1px solid #282c2d;
+
+  background-color: grey;
+  padding-left: 20px;
+  padding: 15px;
+  font-size: 15px;
+}
+
+.profileScreen__signout {
+  background-color: #e50914;
+  width: 100%;
+  outline-width: 0;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.profileScreen__plans > h3 {
+  font-weight: 400;
+  border-bottom: 1px solid #282c2d;
+}
+
+.profileScreen__plans__elements {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #282c2d;
+  width: 100%;
+}
+
+.profileScreen__plans__elements > h4 {
+  font-size: 15px;
+  font-weight: 400;
+  left: 0;
+}
+
+.profileScreen__plans__elements > button {
+  padding: 10px;
+  height: 40px;
+  right: 0;
+  background-color: #e50914;
+  color: white;
+  font-weight: 500;
+  border: none;
+  outline-width: 0;
+  cursor: pointer;
+}
+
+.profileScreen__plans__elements > button:hover {
+  background-color: #e41d27;
+}
+
+.profileScreen__goback {
+  text-align: center;
+  font-weight: 450;
+}
+
+.profileScreen__goback:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
